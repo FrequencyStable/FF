@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="../icon/favicon-32x32.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../CSSFile/PO.css">
+  <link rel="stylesheet" href="../CSSFile/Foodstore.css">
+</head>
+<body>
+
+  <!--Upper-bar-->
+  <div class="upper-bar">
+     
+    <img class="menu-icon" src="../icon/menu-icon.png" id="menu-logo" onclick="show()">
+    <div class="search-bar">
+       <img class="search-icon" src="../icon/icons8-search-64.png" id="SI">
+       <input class="input" type="text">
+    </div>
+    <img onclick="gotoProfileFP()" id="Profile" class="profile" src="../icon/account.png">
+     
+   </div>
+
+   <!--Toggle MEnu-->
+   <div class="toggle-menu" id="menu-bar">
+    <div class="toggle-inside">
+      <span class="S1" id="s1" onclick="gotoMenuFP()">Menu</span>
+      <span class="S2" onclick="DrinksFP()">Drinks</span>
+      <span class="S3" onclick="gotoDesertFP()">Desert</span>
+      <span class="S4" onclick="gotoVoucherFP()">Voucher</span>
+      <span class="S5">About us</span>
+      <span class="S6">Setting</span>
+    </div>
+    
+  </div>
+  
+  <div id="Total" class="tlt">&nbsp;&nbsp;Total :&#8369; <span id="Total_amount"></span></div>
+
+  <div class="upper">
+    <img class="bk" src="../thumbnail/tetureBK.jpg" alt="">
+  </div>
+  
+  <div id="HH" >
+    <img id="Hello">
+  </div>
+  
+  <div class="Quantity">
+    <button id="addbtn" class="btplus">+</button>
+    <div id="Ncounter" class="Qcounter">1</div>
+    <button id="minubtn" class="btminus">&#8722;</button>
+  </div>
+  
+  <div id="Use_Voucher" class="UV" onclick="VouchersAppear()">Uses Voucher</div>
+
+  <!-- vouchers available pop up -->
+  <div id="VRappear" class="VoucherAppear">
+    <button id="ekiss" class="ekis">X</button>
+    <div id="VA1" class="Voucheraligning1">
+      <img class="setvr-1" id="setvoucher-1" src="" >
+      <button id="vrbtn1" class="btnUse">Use</button>
+    </div>
+    <div id="VA2" class="Voucheraligning1"> 
+      <img class="setvr-2" id="setvoucher-2" src="" >
+      <button id="vrbtn2" class="btnUse">Use</button>
+    </div>
+    <div id="VA3" class="Voucheraligning1"> 
+      <img class="setvr-3" id="setvoucher-3" src="" >
+      <button id="vrbtn3" class="btnUse">Use</button>
+    </div>
+    <div id="VA4" class="Voucheraligning1"> 
+      <img class="setvr-4" id="setvoucher-4" src="" >
+      <button id="vrbtn4" class="btnUse">Use</button>
+    </div>
+
+  </div>
+
+
+  <div id="Payment_Method" class="PM">Select Payment Method</div>
+  <div class="PO" id="PlaceOrder"> Order Now</div>
+
+</body>
+
+<script nonce="q2eoNlh5lAzhcJiBB7ihE8sVOcKmOzsD" src="../Javascript/Foodstore.js" ></script>
+<script nonce="FAH6Emn7cgOj5nnhgNBBjFti3c3AsFLM" src="../Javascript/PlaceOrder.js" ></script>
+</html>

@@ -1,0 +1,31 @@
+@media screen and (max-width :768px) {
+  .picture{
+    background-color: green;
+    margin:auto;
+    height:10rem;
+    width: 97%;
+    
+    overflow: hidden;
+  }
+  .user-profile{
+    height: 100px;
+    width:100px;
+    background-color: pink;
+    border-radius: 3rem;
+    position: relative;
+    left: 7vw;
+    top: 5%;
+  }
+  .user-name{
+    position: relative;
+    left:10vw;
+    top: -20%;
+    display: inline;
+    font-size: 1.3rem;
+  }
+  .user-number{
+    position: relative;
+    display: inline;
+    left:50vw;
+  }
+}

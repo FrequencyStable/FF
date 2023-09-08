@@ -1,0 +1,12 @@
+body{
+  margin: 0;
+}
+#user-list {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  height: 50vh;
+  width: 100%;
+  transform: translate(-50%); /* Corrected transform property */
+  background-color: rgb(30, 105, 105);
+}

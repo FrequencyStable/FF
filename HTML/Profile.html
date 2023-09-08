@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" href="../icon/favicon-32x32.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSSFile/Foodstore.css">
+    <link rel="stylesheet" href="../CSSFile/Profile.css">
+  </head>
+  <body>
+     <!--Upper-bar-->
+    <div class="upper-bar">
+     
+      <img class="menu-icon" src="../icon/menu-icon.png" id="menu-logo" onclick="show()">
+      <div class="search-bar">
+         <img class="search-icon" src="../icon/icons8-search-64.png" id="SI">
+         <input class="input" type="text">
+      </div>
+      <img onclick="gotoProfileFP()" id="Profile" class="profile" src="../icon/account.png">
+       
+     </div>
+
+      <!--Toggle MEnu-->
+    <div class="toggle-menu" id="menu-bar">
+      <div class="toggle-inside">
+        <span class="S1" id="s1" onclick="gotoMenuFP()">Menu</span>
+        <span class="S2" onclick="DrinksFP()">Drinks</span>
+        <span class="S3" onclick="gotoDesertFP()">Desert</span>
+        <span class="S4" onclick="gotoVoucherFP()">Voucher</span>
+        <span class="S5">About us</span>
+        <span class="S6">Setting</span>
+      </div>
+    </div>
+    
+
+    <div class="picture">
+      <img class="user-profile" src="../thumbnail/hacker.png" alt="">
+      <div class="user-name">Reymark P Dequito</div>
+      <div class="user-number">09707331334</div>
+    </div>
+  </body>
+  <script nonce="q2eoNlh5lAzhcJiBB7ihE8sVOcKmOzsD" src="../Javascript/Foodstore.js"></script>
+</html>

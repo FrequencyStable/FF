@@ -1,0 +1,99 @@
+@font-face {
+  font-family:Ams;
+  src: url(../Fonts/BOLD.ttf);
+}
+@media screen and (max-width:768px){
+  
+  
+  body{
+    padding:0;
+    margin-top: 12vh;
+    overflow-x: hidden ;
+    background-color: rgb(142, 142, 142);
+  }
+  .Voucher-div{
+    position:relative;
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+    
+  }
+  .Voucher{
+    height: 10rem;
+    width:100%;
+  }
+  .btn{
+    position:relative;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 1.2rem;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding:5px 20px;
+    margin-top: 2px;
+    margin-bottom: 8px;
+    background-color: black;
+    color: white;
+  }
+
+  
+  .Voucher-text{
+    font-size: 16px;
+    font-family:Ams;
+    color:  black;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .hr1,.hr2,.hr3,.hr4{
+    position: relative;
+    border: 3px solid black;
+    width: 100%;
+  }
+  .hr1{
+    top: 2rem;
+  }
+  .hr2{
+    top: 2.3rem;
+  }
+  .hr3{
+    top: 2rem;
+  }
+  .hr4{
+    top: 2.1rem;
+  }
+
+  .numberCounter{
+    position:fixed;
+    top: 20px;
+    left: 75vw;
+    font-size: 1.1rem;
+    z-index: 5;
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+    border-radius:16px ;
+    display: none;
+  }
+  .display{
+    display: block;
+    opacity: 0;
+    animation:delay;
+    animation-duration: 4s;
+  }
+  @keyframes delay {
+    from{
+      opacity: 1;
+    }
+    to{
+      opacity: 0;
+    }
+  }
+
+ #CP{
+  display:none;
+  font-size:20px;
+  margin: auto;
+  text-align: center;
+  padding: 5px;
+ }
+}
